@@ -3,6 +3,12 @@
 - Configured tailwind
 - Header
 - Login form
+- Form validation
+- useRef hook :- is used to reference a field or a button
+- Firebase setup
+- Deploying our app to production
+- Create sign up user account
+- Created redux store with userSlice
 
 # Features
 - Login/Sign Up
