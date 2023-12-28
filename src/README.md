@@ -9,6 +9,17 @@
 - Deploying our app to production
 - Create sign up user account
 - Created redux store with userSlice
+- fetch from tmdb
+- register tmdb api and create an app and get access token
+- get data from tmdb now playing movies list api
+- custom hook for playing movies
+- create movie slice
+- update store with movie data
+- main container secondary container
+- fetch data for trailer video
+- update store with trailer video
+- embed youtube video , autoplay and mute
+- tailwind classes to make it beautiful
 
 # Features
 - Login/Sign Up

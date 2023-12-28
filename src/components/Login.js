@@ -6,7 +6,7 @@ import {auth} from "../utils/Firebase";
 import {useDispatch} from "react-redux";
 import {addUser, removeUser} from "../utils/userSlice";
 import {useNavigate} from 'react-router-dom';
-
+import {BACKGROUND_IMG} from "../utils/constants";
 const Login = () => {
   const [isSignInForm, setIsSignInForm] = useState(true);
   const [errorMessage, setErrorMessage] = useState(null);
@@ -40,7 +40,6 @@ const Login = () => {
             body: JSON.stringify(signUpData)
           });
           const jsonValue = await data.json();
-          console.log(jsonValue);
           const {id, name, email} = jsonValue.Data;
           if(jsonValue.Status == "success" ){
             dispatch(addUser({id: id, name: name, email:email }));
@@ -68,7 +67,6 @@ const Login = () => {
             body: JSON.stringify(signUpData)
           });
           const jsonValue = await data.json();
-          console.log(jsonValue.Data.name);
           const {id, name, email} = jsonValue.Data;
           if(jsonValue.Status === "success" ){
             dispatch(addUser({id: id, name: name, email:email }));
@@ -89,7 +87,7 @@ const Login = () => {
         <Header />
       <div className='absolute'>
       <img 
-        src='https://assets.nflxext.com/ffe/siteui/vlv3/563192ea-ac0e-4906-a865-ba9899ffafad/6b2842d1-2339-4f08-84f6-148e9fcbe01b/IN-en-20231218-popsignuptwoweeks-perspective_alpha_website_large.jpg'
+        src={BACKGROUND_IMG}
         alt='background image'
       />
       </div>
