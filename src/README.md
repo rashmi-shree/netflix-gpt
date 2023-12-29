@@ -28,6 +28,7 @@
 - gpt search bar
 - *  mulitlignual feature to gpt search *
 - integrate gpt apis
+- responsive
 
 # Features
 - Login/Sign Up

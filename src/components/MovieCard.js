@@ -4,7 +4,8 @@ const MovieCard = (props) => {
   
   const {posterPath} = props
   return (
-    <div className='pr-4 w-48'>
+    <div 
+      className='pr-4 md:w-48 w-36'>
       <img 
         src={MOVIE_CARD_IMG_URL + posterPath}
         alt='movie card'
