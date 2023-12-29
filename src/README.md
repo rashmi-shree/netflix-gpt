@@ -20,6 +20,14 @@
 - update store with trailer video
 - embed youtube video , autoplay and mute
 - tailwind classes to make it beautiful
+- build secondary component
+- build movie list
+- build movie card
+- tmdb image cdn url
+- gpt search page
+- gpt search bar
+- *  mulitlignual feature to gpt search *
+- integrate gpt apis
 
 # Features
 - Login/Sign Up

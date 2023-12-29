@@ -8,4 +8,9 @@ export const API_OPTIONS = {
       Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI4ZjcwNjFmMDI3OGRjYjA1YTlmOWZhOTgwMjk0NDFlMSIsInN1YiI6IjY1OGQxNzQ2YTMzNjEyNTkzZTU5MWIwMyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.8dELwO-vCnq-poxYAq_BIo1dl0AzH8FXIKfcW3Ry9LQ'
     }
   };
-export const MOVIE_CARD_IMG_URL = "https://image.tmdb.org/t/p/w500/"
+export const MOVIE_CARD_IMG_URL = "https://image.tmdb.org/t/p/w500/";
+export const SUPPORTED_LANGUAGES = [
+  {identifier:"en", name:"English"},
+  {identifier:"kannada", name:"kannada"},
+  {identifier:"spanish", name:"Spanish"},
+]
