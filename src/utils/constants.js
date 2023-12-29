@@ -5,7 +5,7 @@ export const API_OPTIONS = {
     method: 'GET',
     headers: {
       accept: 'application/json',
-      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI4ZjcwNjFmMDI3OGRjYjA1YTlmOWZhOTgwMjk0NDFlMSIsInN1YiI6IjY1OGQxNzQ2YTMzNjEyNTkzZTU5MWIwMyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.8dELwO-vCnq-poxYAq_BIo1dl0AzH8FXIKfcW3Ry9LQ'
+      Authorization: 'Bearer ' + process.env.REACT_APP_TMDB_KEY,
     }
   };
 export const MOVIE_CARD_IMG_URL = "https://image.tmdb.org/t/p/w500/";
@@ -14,3 +14,4 @@ export const SUPPORTED_LANGUAGES = [
   {identifier:"kannada", name:"kannada"},
   {identifier:"spanish", name:"Spanish"},
 ]
+// export const PLATFORM_OPENAI_KEY = "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";
