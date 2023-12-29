@@ -29,6 +29,7 @@
 - *  mulitlignual feature to gpt search *
 - integrate gpt apis
 - responsive
+- .env file how to keep things safe
 
 # Features
 - Login/Sign Up
